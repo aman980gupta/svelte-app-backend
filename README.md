@@ -16,3 +16,16 @@ for register you can use this type of object in thunder client and method is pos
 }
 for login you can use {"password":"12345","email":"amana@mail.com"} and method is post 
 for logout you need to  use get method for testing api
+
+here we have dealer details like that{
+    dealership_email:"",
+    dealership_id:"",
+    dealership_name:"",
+    dealership_location:"",
+    dealership_info:{},
+    password:"",
+    cars:[],
+    deals:[],
+    sold_vehicles:[]
+}
+and dealer can login and register 

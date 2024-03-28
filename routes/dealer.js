@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-import { dealerlogin,dealerregister } from "../controllers/dealerControlers";
+const { dealerlogin,dealerregister }= require("../controllers/dealerControlers");
 const router = express.Router();
 router.use(cors({
     origin: 'http://localhost:3000',
